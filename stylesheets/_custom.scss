@@ -1,0 +1,76 @@
+.navbar {
+    margin-bottom: 0 !important;
+    a {
+        color: set-text-color($main-color) !important;
+    }
+    .fa {
+        font-size: 18px;
+    }
+}
+
+.showcase {
+    background: url(../images/hero_big.jpg) no-repeat 0 -100px;
+    height: 600px;
+    padding: 30px 0;
+    h1 {
+        font-size: 5rem;
+    }
+    .container {
+        background-color: white;
+        opacity: 0.8;
+        padding: 20px 30px 30px 30px;
+    }
+    a {
+        color: set-text-color($main-color) !important;
+    }
+}
+
+.section_a {
+    padding: 30px 0;
+    text-align: center;
+    background: $main-color;
+    color: set-text-color($main-color);
+    .fa,
+    .fab {
+        font-size: $icon-size;
+    }
+}
+
+.section_b {
+    background-color: #c8c8d1;
+    padding: 30px 0;
+    img {
+        width: 100%;
+    }
+}
+
+.panel-heading h4 {
+    color: set-text-color($main-color);
+}
+
+.section_c {
+    padding: 60px 0;
+    background-color: $main-color;
+    text-align: center;
+    color: set-text-color($main-color);
+    .btn-primary {
+        background-color: darken($main-color, 10%);
+    }
+}
+
+.title-bar {
+    background: url(../images/hero_big.jpg) no-repeat 0 -300px;
+    padding-bottom: 10px;
+    border-bottom: 4px solid $main-color;
+    color: set-text-color($main-color);
+}
+
+.main {
+    margin-top: 30px;
+}
+
+footer {
+    padding: 30px 0;
+    background-color: darken($main-color, 10%);
+    color: set-text-color($main-color);
+}
